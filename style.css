@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins';
+    padding: 10px;
+    text-align: center;
+}
+
+.song-list{
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.song-container{
+    display: flex;
+    justify-content: center;
+}
+
+.song-list li {
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-list img {
+    width: 100%;
+    height: auto;
+}
+
+.song-list p{
+    margin: 0;
+}
